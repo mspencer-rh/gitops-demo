@@ -8,7 +8,4 @@ bases:
 - operator/namespace.yaml
 - operator/operator-group.yaml
 - operator/pipelines-subscription.yaml
-- instance/tekton.yaml
-- instance/pipeline.yaml
-- instance/trigger.yaml
-- instance/addon.yaml
+- instance/config.yaml
