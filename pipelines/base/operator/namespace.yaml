@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: Openshift operators
+    openshift.io/display-name:  Openshift operators
+  name: openshift-operators
