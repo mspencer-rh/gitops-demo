@@ -3,8 +3,6 @@ kind: TektonConfig
 metadata:
   name: config
   namespace: openshift-operators
-  labels:
-    app.kubernetes.io/instance: pipelines
 spec:
   addon:
     params:
