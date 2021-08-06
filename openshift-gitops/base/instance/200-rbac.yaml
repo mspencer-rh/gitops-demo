@@ -49,7 +49,7 @@ rules:
     resources:
       - namespaceconfigs
       - userconfigs
-      -groupconfigs
+      - groupconfigs
   - verbs:
       - '*'
     apiGroups:
