@@ -6,7 +6,7 @@ spec:
   annotationSelector: {}
   labelSelector:
     matchLabels:
-      size: developer
+      role: developer
   templates:
     - objectTemplate: |
         apiVersion: v1
