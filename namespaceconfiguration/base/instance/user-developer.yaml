@@ -13,3 +13,5 @@ spec:
         kind: Namespace
         metadata:
           name: {{ .Name }}-dev
+          labels:
+            size: small
