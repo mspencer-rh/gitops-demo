@@ -48,6 +48,8 @@ rules:
       - "redhatcop.redhat.io"
     resources:
       - namespaceconfigs
+      - userconfigs
+      -groupconfigs
   - verbs:
       - '*'
     apiGroups:
