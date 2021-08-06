@@ -1,0 +1,19 @@
+apiVersion: redhatcop.redhat.io/v1alpha1
+kind: UserConfig
+metadata:
+  name: user-developer
+spec:
+  annotationSelector: {}
+  labelSelector:
+    matchLabels:
+      size: developer
+  templates:
+    - excludedPaths:
+        - .metadata
+        - .status
+        - .spec.replicas    
+    - objectTemplate: |
+        apiVersion: v1
+        kind: Namespace
+        metadata:
+          name: {{ .Name }}-dev
