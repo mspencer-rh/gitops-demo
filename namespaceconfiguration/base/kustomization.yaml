@@ -9,3 +9,4 @@ bases:
 - operator/operator-group.yaml
 - operator/subscription.yaml
 - instance/small-sizing.yaml
+- instance/user-developer.yaml
