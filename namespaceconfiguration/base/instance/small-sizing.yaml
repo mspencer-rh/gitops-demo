@@ -1,12 +1,12 @@
 apiVersion: redhatcop.redhat.io/v1alpha1
 kind: NamespaceConfig
 metadata:
-  name: small-namespace
+  name: developer-group
 spec:
   annotationSelector: {}
   labelSelector:
     matchLabels:
-      size: small
+      size: developer
   templates:
     - excludedPaths:
         - .metadata
