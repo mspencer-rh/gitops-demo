@@ -10,3 +10,4 @@ bases:
 - operator/subscription.yaml
 - instance/small-sizing.yaml
 - instance/user-developer.yaml
+- instance/group-devteam.yaml
