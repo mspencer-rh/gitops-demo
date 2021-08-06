@@ -8,10 +8,6 @@ spec:
     matchLabels:
       size: developer
   templates:
-    - excludedPaths:
-        - .metadata
-        - .status
-        - .spec.replicas    
     - objectTemplate: |
         apiVersion: v1
         kind: Namespace
