@@ -3,6 +3,7 @@ kind: UserConfig
 metadata:
   name: user-developer
 spec:
+  providerName: my_htpasswd_provider
   labelSelector:
     matchLabels:
       role: developer
