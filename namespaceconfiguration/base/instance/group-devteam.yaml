@@ -12,9 +12,9 @@ spec:
         kind: Namespace
         metadata:
           name: {{ .Name }}-dev
-        labels:
-          team: {{ .Name }}
-          type: dev
+          labels:
+            team: {{ .Name }}
+            type: dev
     - objectTemplate: |
         apiVersion: rbac.authorization.k8s.io/v1
         kind: RoleBinding
