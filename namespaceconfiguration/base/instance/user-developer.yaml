@@ -14,7 +14,7 @@ spec:
           name: {{ .Name }}-dev
           labels:
             team: {{ .Name }}
-            size: small
+            type: dev
     - objectTemplate: |
         apiVersion: rbac.authorization.k8s.io/v1
         kind: RoleBinding
