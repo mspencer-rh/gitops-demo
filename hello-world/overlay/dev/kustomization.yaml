@@ -3,12 +3,3 @@ kind: Kustomization
 
 bases:
   - ../../base
-
-patchesJson6902:
-- target:
-    group: argoproj.io
-    version: v1alpha1
-    kind: ApplicationSet
-    name: greeting-app-example
-    namespace: demo-namespace
-  path: deployment.yaml
