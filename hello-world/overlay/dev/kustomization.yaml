@@ -9,6 +9,6 @@ patchesJson6902:
     group: argoproj.io
     version: v1alpha1
     kind: ApplicationSet
-    name: cluster-base
-    namespace: openshift-gitops
-  path: patch-overlay.yaml
+    name: greeting-app-example
+    namespace: demo-namespace
+  path: deployment.yaml
