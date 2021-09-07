@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  annotations:
+    openshift.io/description: Operator namespace that installs 3scale
+    openshift.io/display-name:  openshift-3scale
+  name: openshift-3scale
