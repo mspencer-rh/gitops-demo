@@ -8,3 +8,4 @@ resources:
 - operator/namespace.yaml
 - operator/operatorgroup.yaml
 - operator/subscription.yaml
+- instance/apimanager.yaml
